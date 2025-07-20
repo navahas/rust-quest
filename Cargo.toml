@@ -1,0 +1,14 @@
+[package]
+name = "hashmap"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "two-sum"
+path = "src/two_sum.rs"
+
+[[bin]]
+name = "add-nums"
+path = "src/add_nums.rs"
+
+[dependencies]
